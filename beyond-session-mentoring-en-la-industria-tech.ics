@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID:-//AddEvent Inc//AddEvent.com v1.7//EN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:America/Merida
+BEGIN:STANDARD
+DTSTART:20211031T010000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20210404T030000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=4
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211201T142930Z
+STATUS:CONFIRMED
+UID:1638368970addeventcom
+DTSTART;TZID=America/Merida:20211202T183000
+DTEND;TZID=America/Merida:20211202T193000
+SUMMARY:Beyond session Mentoring en la industria tech
+DESCRIPTION:Recurrentemente se escucha a profesionales de la industria\, atribuir su rápido crecimiento en salarios y conocimientos\, al acompañamiento y cuidado que compañeros más experimentados les brindaron en sus primeras oportunidades laborales.\n\nCon el tiempo hemos reconocido que esta dedicación no es una casualidad por eso nos reuniremos a discutirlo con Luis Mejía\, creador de la comunidad six figure mentoring e ingeniero de software en gitlab.\n\n¿Qué se espera del host?\n\n- Moderar y compartir perspectivas junto al resto de los participantes\n\nCómo prepararse para la sesión\n\n- Trae tu bebida relajante\n\n- Cámara encendida\n\n- Ganas de compartir
+X-ALT-DESC;FMTTYPE=text/html:Recurrentemente se escucha a profesionales de la industria, atribuir su rápido crecimiento en salarios y conocimientos, al acompañamiento y cuidado que compañeros más experimentados les brindaron en sus primeras oportunidades laborales.<br />Con el tiempo hemos reconocido que esta dedicación no es una casualidad por eso nos reuniremos a discutirlo con Luis Mejía, creador de la comunidad six figure mentoring e ingeniero de software en gitlab.<br><br>¿Qué se espera del host?<br />- Moderar y compartir perspectivas junto al resto de los participantes<br><br>Cómo prepararse para la sesión<br />- Trae tu bebida relajante<br />- Cámara encendida<br />- Ganas de compartir
+LOCATION:https://beyond.dev/api/zoom
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
